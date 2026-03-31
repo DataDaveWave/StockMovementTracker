@@ -3,7 +3,7 @@ import requests
 
 # 1. Page Config must be the very first Streamlit command
 st.set_page_config(page_title="Stock Movement Tracker", layout="wide")
-st.title("📈 Stock Movement Tracker")
+st.write("### 📈 SMT")
 
 # 2. Your RAW Gist URL
 SECRET_LOGIC_URL = "https://gist.githubusercontent.com/DataDaveWave/c9880ea215c310126e8960ae82dbbb21/raw/stockmovementtracker.py"
